@@ -1,0 +1,5 @@
+src
+tsconfig.json
+.npmignore
+# Include dist but ignore maps if you want smaller package
+dist/**/*.map

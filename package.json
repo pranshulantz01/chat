@@ -1,0 +1,47 @@
+{
+  "name": "com.testchat.p",
+  "version": "1.0.0",
+  "description": "creating a chat api",
+  "keywords": [
+    "chat",
+    "js"
+  ],
+  "homepage": "https://github.com/pranshulantz01/chat#readme",
+  "bugs": {
+    "url": "https://github.com/pranshulantz01/chat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranshulantz01/chat.git"
+  },
+  "license": "ISC",
+  "author": "pranshul",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3"
+  },
+  "peerDependencies": {
+    "react": "^19.2.4",
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "@types/react": "^19.2.13"
+  }
+}
